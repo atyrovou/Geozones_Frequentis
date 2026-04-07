@@ -1,0 +1,84 @@
+{
+  "type": "FeatureCollection",
+  "name": "Feature Collection GeoZones",
+  "metadata": {
+    "validFrom": "2026-03-30T10:57:15.692Z",
+    "validTo": "2026-03-30T11:57:15.692Z",
+    "provider": [],
+    "description": [],
+    "otherGeoid": "urn:frequentis:zone-NFZ6547",
+    "technicalLimitations": []
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+  [
+    [5.32305, 60.40293],
+    [5.32435, 60.40278],
+    [5.32505, 60.40225],
+    [5.32510, 60.40160],
+    [5.32460, 60.40110],
+    [5.32370, 60.40090],
+    [5.32290, 60.40115],
+    [5.32255, 60.40170],
+    [5.32270, 60.40225],
+    [5.32305, 60.40293]
+  ]
+        ]
+,
+        "layer": {
+          "upper": 200,
+          "upperReference": "AGL",
+          "lower": 100,
+          "lowerReference": "AGL",
+          "uom": "m"
+        }
+      },
+      "properties": {
+        "identifier": "NOR001",
+        "country": "NOR",
+        "name": [
+          {
+            "text": "LFPG-2",
+            "lang": "en-GB"
+          }
+        ],
+        "type": "REQ_AUTHORIZATION",
+        "variant": "COMMON",
+        "reason": [
+          "AIR_TRAFFIC",
+          "OTHER"
+        ],
+        "otherReasonInfo": [
+          {
+            "text": "Air Show Norway",
+            "lang": "en-GB"
+          },
+          {
+            "text": "Air Show Vienna",
+            "lang": "en-GB"
+          }
+        ],
+        "zoneAuthority": [
+          {
+            "purpose": "AUTHORIZATION",
+            "intervalBefore": "P00DT01H00M",
+            "name": [
+              {
+                "text": "Frequentis",
+                "lang": "en-GB"
+              }
+            ],
+            "email": {
+              "text": "test@gmail.com",
+              "lang": "en-GB"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
